@@ -1,0 +1,623 @@
+[
+    {
+        "description": "\u00ef\u00bb\u00bfA wild-eyed mob emerges from the streets and attacks you.",
+        "options": [
+            {
+                "name": "Flee",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "2"
+                }
+            },
+            {
+                "name": "Try to disperse the mob ",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "2"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A shoot out emerges where you are caught in the middle of it.",
+        "options": [
+            {
+                "name": "Flee",
+                "consequences": {
+                    "reputation": "-3",
+                    "money": "0",
+                    "health": "1"
+                }
+            },
+            {
+                "name": "Shoot at both groups",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "-2"
+                }
+            },
+            {
+                "name": "Shoot at protestors",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "0",
+                    "health": "-4"
+                }
+            },
+            {
+                "name": "Shoot at militia",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "0",
+                    "health": "-2"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A collegue ratted you out for \"anti-comminist behaviour\".",
+        "options": [
+            {
+                "name": "Deny",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-2"
+                }
+            },
+            {
+                "name": "Plea",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "-10",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A gang kidnaps you and asks to pay them money.",
+        "options": [
+            {
+                "name": "Try to Flee",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "-5"
+                }
+            },
+            {
+                "name": "Give money",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "-10",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Your quota is off by one person for the month.",
+        "options": [
+            {
+                "name": "Accept the consequences",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "3"
+                }
+            },
+            {
+                "name": "Arrest random civilian (fake it)",
+                "consequences": {
+                    "reputation": "5",
+                    "money": "0",
+                    "health": "-1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A boy steals your lunch.",
+        "options": [
+            {
+                "name": "Let him go",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Arrest civilian",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Beat up to teach a lesson",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "3",
+                    "health": "-1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You heard a loud bang in the area.",
+        "options": [
+            {
+                "name": "Ignore it",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Explore",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "0",
+                    "health": "-2"
+                }
+            }
+        ]
+    },
+    {
+        "description": "See that a house was robbed.",
+        "options": [
+            {
+                "name": "Investigate",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "-1",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Ignore",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A revolutionary points a gun at you.",
+        "options": [
+            {
+                "name": "Flee",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Point a gun back",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "0",
+                    "health": "-5"
+                }
+            },
+            {
+                "name": "Shoot them",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-10"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Violent civilian called you a 'fatass'.",
+        "options": [
+            {
+                "name": "Arrest",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Ignore",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "0",
+                    "health": "-5"
+                }
+            },
+            {
+                "name": "Shoot them",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-10"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Violent civilian questions your authority.",
+        "options": [
+            {
+                "name": "Arrest",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Ignore",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "0",
+                    "health": "-5"
+                }
+            },
+            {
+                "name": "Shoot them",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-10"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You were punched by a revolutionist.",
+        "options": [
+            {
+                "name": "Arrest",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Ignore",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "0",
+                    "health": "-5"
+                }
+            },
+            {
+                "name": "Shoot them",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-10"
+                }
+            }
+        ]
+    },
+    {
+        "description": "\"Your\" milicja car was destroyed by a group of vandals.",
+        "options": [
+            {
+                "name": "Search for the vandlas",
+                "consequences": {
+                    "reputation": "4",
+                    "money": "-1",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Ignore",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "-2",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A molatov cotail is thrown at you.",
+        "options": [
+            {
+                "name": "Flee",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Shoot at it in the air.",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "0",
+                    "health": "-1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A civilian tries to stab you.",
+        "options": [
+            {
+                "name": "Flee",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Shoot them",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "0",
+                    "health": "-1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You are being shot at by civilians and you hide your cover.",
+        "options": [
+            {
+                "name": "Flee",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "3"
+                }
+            },
+            {
+                "name": "Shoot back",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "0",
+                    "health": "-1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Your collegue caught you drunk driving. Too much Rakia I guess.",
+        "options": [
+            {
+                "name": "Deny",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-2"
+                }
+            },
+            {
+                "name": "Bribe",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "-10",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A group of protestors are blocking the road.",
+        "options": [
+            {
+                "name": "Shoot at them",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Try to run through them",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "0",
+                    "health": "-3"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A collegue of yours is seen protesting.",
+        "options": [
+            {
+                "name": "Ignore them",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "3"
+                }
+            },
+            {
+                "name": "Snitch",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "10",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You find a rular boy stealing food.",
+        "options": [
+            {
+                "name": "Arrest him",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Steal from him",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Tell him off",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "0",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Citizen screams obsecnities about Ceau\u00c8\u2122escu.",
+        "options": [
+            {
+                "name": "Arrest them",
+                "consequences": {
+                    "reputation": "5",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Ignore them",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "0",
+                    "health": "1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A foreigner is lost.",
+        "options": [
+            {
+                "name": "Arrest them",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "1",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Ignore them",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "0",
+                    "health": "1"
+                }
+            },
+            {
+                "name": "Ask for a bribe",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "10",
+                    "health": "1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A rich foreigner diriver is driving down the road.",
+        "options": [
+            {
+                "name": "Arrest them",
+                "consequences": {
+                    "reputation": "-3",
+                    "money": "1",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Ignore them",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "0",
+                    "health": "1"
+                }
+            },
+            {
+                "name": "Ask for a bribe",
+                "consequences": {
+                    "reputation": "-10",
+                    "money": "20",
+                    "health": "1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You see a lady of the night walking down the street.",
+        "options": [
+            {
+                "name": "Arrest them",
+                "consequences": {
+                    "reputation": "5",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Ignore them",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Use their services",
+                "consequences": {
+                    "reputation": "-20",
+                    "money": "-10",
+                    "health": "20"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A repeat offender still punches random people (probably mentally unstable).",
+        "options": [
+            {
+                "name": "Arrest him",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "0",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Steal from him",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "10",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Tell him off",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "0",
+                    "health": "-1"
+                }
+            }
+        ]
+    }
+]
