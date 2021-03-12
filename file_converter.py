@@ -3,7 +3,7 @@ import json
 
 final_set = []
 
-with open('CARDS.csv') as csv_file:
+with open('CARDS.csv', encoding="utf8") as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     for row in csv_reader:
         card_dict = dict()
