@@ -1,0 +1,23 @@
+[
+    {"id": 1, "name":"Băneasa", "money": 6, "reputation": 4},
+    {"id": 4, "name":"Străulești", "money": 9, "reputation": 1},
+    {"id": 5, "name":"Bucureștii Noi", "money": 7, "reputation": 3},
+    {"id": 16, "name":"Chitila", "money": 6, "reputation": 4},
+    {"id": 11, "name":"1 Mai", "money": 8, "reputation": 2},
+    {"id": 8, "name":"Primăverii", "money": 7, "reputation": 3},
+    {"id": 32, "name":"Floreasca", "money": 4, "reputation": 6},
+    {"id": 36, "name":"Colentina", "money": 6, "reputation": 4},
+    {"id": 17, "name":"Giulești", "money": 8, "reputation": 2},
+    {"id": 20, "name":"Militari", "money": 9, "reputation": 1},
+    {"id": 20, "name":"Cotroceni", "money": 8, "reputation": 2},
+    {"id": 37, "name":"Baicului", "money": 8, "reputation": 2},
+    {"id": 44, "name":"Pantelimon", "money": 2, "reputation": 8},
+    {"id": 23, "name":"Drumul Taberei", "money": 8, "reputation": 2},
+    {"id": 58, "name":"Rahova", "money": 4, "reputation": 6},
+    {"id": 59, "name":"Tineretului", "money": 6, "reputation": 4},
+    {"id": 39, "name":"Titan", "money": 8, "reputation": 2},
+    {"id": 24, "name":"Ghencea", "money": 7, "reputation": 3},
+    {"id": 28, "name":"Ferentari​", "money": 0, "reputation": 10},
+    {"id": 50, "name":"Berceni", "money": 1, "reputation": 9},
+    {"id": 61, "name":"Center", "money": 7, "reputation": 3}
+]

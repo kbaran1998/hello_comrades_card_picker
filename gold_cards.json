@@ -1,0 +1,240 @@
+[
+    {
+        "description": "The possessions of someone you arrested the other day found their way into your pocket.",
+        "reward": {
+            "amount": "10",
+            "type": "money"
+        }
+    },
+    {
+        "description": "You saw a dog that was drowning in the river, and you saved it.",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "The case you previously were a part of was successful as you uncovered the whole gang.",
+        "reward": {
+            "amount": "10",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You stopped a pickpocketer.",
+        "reward": {
+            "amount": "4",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You arrested a group of anti-communists marching to the center of Bucarest.",
+        "reward": {
+            "amount": "5",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "Your old friend from rural land gave you some jarred home-made goods.",
+        "reward": {
+            "amount": "2",
+            "type": "health"
+        }
+    },
+    {
+        "description": "Your station exceeded the quotas. Glory to our commerade Ceau\u0219escu.",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "Your station got praised for good work.",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You got as an autograph from comrade Ceau\u0219escu himself.",
+        "reward": {
+            "amount": "2",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "Your brother got a job at the station as well.",
+        "reward": {
+            "amount": "1",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You found a drug abuser on the street and arrested him.",
+        "reward": {
+            "amount": "2",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You were given some money to keep a 'secret' about your boss.",
+        "reward": {
+            "amount": "10",
+            "type": "money"
+        }
+    },
+    {
+        "description": "You captured an unemployed, homeless person on the road. That cannot happen! Everyone has a job! Right?",
+        "reward": {
+            "amount": "2",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "Your neighbor Vasile whom you hate, and you created rumors about his anti-communist stances, was arrested.",
+        "reward": {
+            "amount": "1",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You overheard a silly child say that Elena Ceau\u0219escu is not her supreme mother. You arrest her parents.",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You give a massive fine to a citizen who had a joke about a Ceau\u0219escu. Such disrespect is unacceptable.",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You see an at the back of the pharmacy. There are western pain killers which supposedly were 'expired.' (they lied)",
+        "reward": {
+            "amount": "1",
+            "type": "health"
+        }
+    },
+    {
+        "description": "You get an extra 'militia' meal as your colleague died.",
+        "reward": {
+            "amount": "3",
+            "type": "money"
+        }
+    },
+    {
+        "description": "For your contributions, you got 12 minutes of rest the next day. No less, no more.",
+        "reward": {
+            "amount": "4",
+            "type": "health"
+        }
+    },
+    {
+        "description": "Thanks to you, the parents who spoke out against a school teacher beating their kid have been arrested for anti-communist stances.",
+        "reward": {
+            "amount": "2",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You charge and beat up a beggar on the street. THERE IS WORK FOR EVERYONE!",
+        "reward": {
+            "amount": "2",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You captured a guy with a hollowed-out Romanian flag.",
+        "reward": {
+            "amount": "4",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You arrested a priest who had anti-communist stances.",
+        "reward": {
+            "amount": "4",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You stopped a nurse that complained about her workplace being 'dirty.",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "Somehow bullets of your gun hit protestors. Good job!",
+        "reward": {
+            "amount": "2",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "The leading critic of the Ceau\u0219escu family was detained, and you are invited to question him. What an honor!",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You run over with militia car protestors. They serve a better purpose when dead.",
+        "reward": {
+            "amount": "2",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "The cousin from the village gives you some fresh bread and Vi\u0219inat\u0103.",
+        "reward": {
+            "amount": "4",
+            "type": "money"
+        }
+    },
+    {
+        "description": "You told off your drunk colleague to your boss. Well done!",
+        "reward": {
+            "amount": "2",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You confiscated weapons from a truck of some citizen. Take them for later.",
+        "reward": {
+            "amount": "5",
+            "type": "money"
+        }
+    },
+    {
+        "description": "The possessions of someone you arrested landed in your pocket.",
+        "reward": {
+            "amount": "7",
+            "type": "money"
+        }
+    },
+    {
+        "description": "You exceeded your quotas.",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You imprisoned the most dissidents this year in Bucarest.",
+        "reward": {
+            "amount": "4",
+            "type": "reputation"
+        }
+    },
+    {
+        "description": "You arrest your neighbor who parodied Romania's national anthem and made fun of the glorious ruling family.",
+        "reward": {
+            "amount": "3",
+            "type": "reputation"
+        }
+    }
+]

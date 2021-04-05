@@ -11,32 +11,24 @@
                 }
             },
             {
-                "name": "Try to disperse the mob ",
+                "name": "Disperse the mob ",
                 "consequences": {
-                    "reputation": "-1",
+                    "reputation": "1",
                     "money": "0",
-                    "health": "2"
+                    "health": "-2"
                 }
             }
         ]
     },
     {
-        "description": "A shoot out emerges where you are caught in the middle of it.",
+        "description": "A shoot-out emerges where you are caught in the middle of it.",
         "options": [
             {
                 "name": "Flee",
                 "consequences": {
-                    "reputation": "-3",
+                    "reputation": "-2",
                     "money": "0",
                     "health": "1"
-                }
-            },
-            {
-                "name": "Shoot at both groups",
-                "consequences": {
-                    "reputation": "-1",
-                    "money": "0",
-                    "health": "-2"
                 }
             },
             {
@@ -50,7 +42,7 @@
             {
                 "name": "Shoot at militia",
                 "consequences": {
-                    "reputation": "-2",
+                    "reputation": "-3",
                     "money": "0",
                     "health": "-2"
                 }
@@ -58,20 +50,20 @@
         ]
     },
     {
-        "description": "A collegue ratted you out for \"anti-comminist behaviour\".",
+        "description": "A colleague ratted you out for anti-communist behavior.",
         "options": [
             {
                 "name": "Deny",
                 "consequences": {
-                    "reputation": "0",
+                    "reputation": "-3",
                     "money": "0",
                     "health": "-2"
                 }
             },
             {
-                "name": "Plea",
+                "name": "Bribe",
                 "consequences": {
-                    "reputation": "-5",
+                    "reputation": "-3",
                     "money": "-10",
                     "health": "0"
                 }
@@ -79,12 +71,12 @@
         ]
     },
     {
-        "description": "A gang kidnaps you and asks to pay them money.",
+        "description": "A gang kidnaps you and asks you to pay them money.",
         "options": [
             {
-                "name": "Try to Flee",
+                "name": "Flee",
                 "consequences": {
-                    "reputation": "-5",
+                    "reputation": "-3",
                     "money": "0",
                     "health": "-5"
                 }
@@ -92,7 +84,7 @@
             {
                 "name": "Give money",
                 "consequences": {
-                    "reputation": "-2",
+                    "reputation": "-5",
                     "money": "-10",
                     "health": "0"
                 }
@@ -105,16 +97,16 @@
             {
                 "name": "Accept the consequences",
                 "consequences": {
-                    "reputation": "-5",
+                    "reputation": "-3",
                     "money": "0",
-                    "health": "3"
+                    "health": "-3"
                 }
             },
             {
                 "name": "Arrest random civilian (fake it)",
                 "consequences": {
                     "reputation": "5",
-                    "money": "0",
+                    "money": "1",
                     "health": "-1"
                 }
             }
@@ -135,15 +127,15 @@
                 "name": "Arrest civilian",
                 "consequences": {
                     "reputation": "2",
-                    "money": "0",
+                    "money": "1",
                     "health": "0"
                 }
             },
             {
                 "name": "Beat up to teach a lesson",
                 "consequences": {
-                    "reputation": "2",
-                    "money": "3",
+                    "reputation": "1",
+                    "money": "0",
                     "health": "-1"
                 }
             }
@@ -177,8 +169,8 @@
                 "name": "Investigate",
                 "consequences": {
                     "reputation": "1",
-                    "money": "-1",
-                    "health": "0"
+                    "money": "0",
+                    "health": "-2"
                 }
             },
             {
@@ -186,7 +178,7 @@
                 "consequences": {
                     "reputation": "-1",
                     "money": "0",
-                    "health": "0"
+                    "health": "1"
                 }
             }
         ]
@@ -197,9 +189,9 @@
             {
                 "name": "Flee",
                 "consequences": {
-                    "reputation": "-5",
+                    "reputation": "-3",
                     "money": "0",
-                    "health": "-1"
+                    "health": "1"
                 }
             },
             {
@@ -213,21 +205,21 @@
             {
                 "name": "Shoot them",
                 "consequences": {
-                    "reputation": "0",
+                    "reputation": "1",
                     "money": "0",
-                    "health": "-10"
+                    "health": "-3"
                 }
             }
         ]
     },
     {
-        "description": "Violent civilian called you a 'fatass'.",
+        "description": "Violent civilians called you a 'fatass'.",
         "options": [
             {
                 "name": "Arrest",
                 "consequences": {
-                    "reputation": "-5",
-                    "money": "0",
+                    "reputation": "1",
+                    "money": "1",
                     "health": "-1"
                 }
             },
@@ -244,7 +236,7 @@
                 "consequences": {
                     "reputation": "0",
                     "money": "0",
-                    "health": "-10"
+                    "health": "-3"
                 }
             }
         ]
@@ -255,8 +247,8 @@
             {
                 "name": "Arrest",
                 "consequences": {
-                    "reputation": "-5",
-                    "money": "0",
+                    "reputation": "1",
+                    "money": "1",
                     "health": "-1"
                 }
             },
@@ -273,19 +265,19 @@
                 "consequences": {
                     "reputation": "0",
                     "money": "0",
-                    "health": "-10"
+                    "health": "-3"
                 }
             }
         ]
     },
     {
-        "description": "You were punched by a revolutionist.",
+        "description": "A revolutionist punched you.",
         "options": [
             {
                 "name": "Arrest",
                 "consequences": {
-                    "reputation": "-5",
-                    "money": "0",
+                    "reputation": "1",
+                    "money": "1",
                     "health": "-1"
                 }
             },
@@ -302,19 +294,19 @@
                 "consequences": {
                     "reputation": "0",
                     "money": "0",
-                    "health": "-10"
+                    "health": "-3"
                 }
             }
         ]
     },
     {
-        "description": "\"Your\" milicja car was destroyed by a group of vandals.",
+        "description": "Your militia car was destroyed by a group of vandals.",
         "options": [
             {
                 "name": "Search for the vandlas",
                 "consequences": {
-                    "reputation": "4",
-                    "money": "-1",
+                    "reputation": "5",
+                    "money": "-2",
                     "health": "-1"
                 }
             },
@@ -329,22 +321,22 @@
         ]
     },
     {
-        "description": "A molatov cotail is thrown at you.",
+        "description": "A Molotov cocktail is thrown at you.",
         "options": [
             {
                 "name": "Flee",
                 "consequences": {
-                    "reputation": "-5",
+                    "reputation": "-3",
                     "money": "0",
                     "health": "0"
                 }
             },
             {
-                "name": "Shoot at it in the air.",
+                "name": "Shoot at it in the air",
                 "consequences": {
                     "reputation": "3",
                     "money": "0",
-                    "health": "-1"
+                    "health": "-3"
                 }
             }
         ]
@@ -365,18 +357,18 @@
                 "consequences": {
                     "reputation": "3",
                     "money": "0",
-                    "health": "-1"
+                    "health": "-2"
                 }
             }
         ]
     },
     {
-        "description": "You are being shot at by civilians and you hide your cover.",
+        "description": "You are being shot at by civilians, and you hide your cover.",
         "options": [
             {
                 "name": "Flee",
                 "consequences": {
-                    "reputation": "-5",
+                    "reputation": "-3",
                     "money": "0",
                     "health": "3"
                 }
@@ -392,12 +384,12 @@
         ]
     },
     {
-        "description": "Your collegue caught you drunk driving. Too much Rakia I guess.",
+        "description": "Your colleague caught you drunk driving. Too much Rachiu, I guess.",
         "options": [
             {
                 "name": "Deny",
                 "consequences": {
-                    "reputation": "0",
+                    "reputation": "-2",
                     "money": "0",
                     "health": "-2"
                 }
@@ -413,7 +405,7 @@
         ]
     },
     {
-        "description": "A group of protestors are blocking the road.",
+        "description": "A group of protestors is blocking the road.",
         "options": [
             {
                 "name": "Shoot at them",
@@ -424,9 +416,9 @@
                 }
             },
             {
-                "name": "Try to run through them",
+                "name": "Run through them",
                 "consequences": {
-                    "reputation": "3",
+                    "reputation": "5",
                     "money": "0",
                     "health": "-3"
                 }
@@ -434,34 +426,34 @@
         ]
     },
     {
-        "description": "A collegue of yours is seen protesting.",
+        "description": "A colleague of yours is seen protesting.",
         "options": [
             {
                 "name": "Ignore them",
                 "consequences": {
-                    "reputation": "-5",
+                    "reputation": "-3",
                     "money": "0",
-                    "health": "3"
+                    "health": "0"
                 }
             },
             {
                 "name": "Snitch",
                 "consequences": {
-                    "reputation": "1",
-                    "money": "10",
-                    "health": "0"
+                    "reputation": "10",
+                    "money": "5",
+                    "health": "1"
                 }
             }
         ]
     },
     {
-        "description": "You find a rular boy stealing food.",
+        "description": "You find a rural boy stealing food.",
         "options": [
             {
                 "name": "Arrest him",
                 "consequences": {
-                    "reputation": "2",
-                    "money": "0",
+                    "reputation": "1",
+                    "money": "1",
                     "health": "0"
                 }
             },
@@ -469,14 +461,14 @@
                 "name": "Steal from him",
                 "consequences": {
                     "reputation": "0",
-                    "money": "0",
+                    "money": "1",
                     "health": "-1"
                 }
             },
             {
                 "name": "Tell him off",
                 "consequences": {
-                    "reputation": "1",
+                    "reputation": "2",
                     "money": "0",
                     "health": "0"
                 }
@@ -484,13 +476,13 @@
         ]
     },
     {
-        "description": "Citizen screams obsecnities about Ceau\u0219escu.",
+        "description": "Citizen screams obcenities about Ceau\u0219escu.",
         "options": [
             {
                 "name": "Arrest them",
                 "consequences": {
                     "reputation": "5",
-                    "money": "0",
+                    "money": "1",
                     "health": "-1"
                 }
             },
@@ -510,7 +502,7 @@
             {
                 "name": "Arrest them",
                 "consequences": {
-                    "reputation": "-1",
+                    "reputation": "-2",
                     "money": "1",
                     "health": "-1"
                 }
@@ -526,21 +518,21 @@
             {
                 "name": "Ask for a bribe",
                 "consequences": {
-                    "reputation": "-2",
-                    "money": "10",
+                    "reputation": "-1",
+                    "money": "5",
                     "health": "1"
                 }
             }
         ]
     },
     {
-        "description": "A rich foreigner diriver is driving down the road.",
+        "description": "A wealthy foreign driver is driving down the road.",
         "options": [
             {
                 "name": "Arrest them",
                 "consequences": {
                     "reputation": "-3",
-                    "money": "1",
+                    "money": "3",
                     "health": "-1"
                 }
             },
@@ -556,7 +548,7 @@
                 "name": "Ask for a bribe",
                 "consequences": {
                     "reputation": "-10",
-                    "money": "20",
+                    "money": "10",
                     "health": "1"
                 }
             }
@@ -566,15 +558,15 @@
         "description": "You see a lady of the night walking down the street.",
         "options": [
             {
-                "name": "Arrest them",
+                "name": "Arrest her",
                 "consequences": {
                     "reputation": "5",
-                    "money": "0",
+                    "money": "3",
                     "health": "-1"
                 }
             },
             {
-                "name": "Ignore them",
+                "name": "Ignore her",
                 "consequences": {
                     "reputation": "-1",
                     "money": "0",
@@ -582,11 +574,11 @@
                 }
             },
             {
-                "name": "Use their services",
+                "name": "Use her services",
                 "consequences": {
-                    "reputation": "-20",
+                    "reputation": "-10",
                     "money": "-10",
-                    "health": "20"
+                    "health": "10"
                 }
             }
         ]
@@ -598,7 +590,7 @@
                 "name": "Arrest him",
                 "consequences": {
                     "reputation": "2",
-                    "money": "0",
+                    "money": "1",
                     "health": "-1"
                 }
             },
@@ -606,16 +598,16 @@
                 "name": "Steal from him",
                 "consequences": {
                     "reputation": "0",
-                    "money": "10",
+                    "money": "2",
                     "health": "-1"
                 }
             },
             {
                 "name": "Tell him off",
                 "consequences": {
-                    "reputation": "1",
+                    "reputation": "-1",
                     "money": "0",
-                    "health": "-1"
+                    "health": "-2"
                 }
             }
         ]
@@ -627,14 +619,14 @@
                 "name": "Arrest him",
                 "consequences": {
                     "reputation": "1",
-                    "money": "0",
+                    "money": "1",
                     "health": "0"
                 }
             },
             {
                 "name": "Steal from him",
                 "consequences": {
-                    "reputation": "0",
+                    "reputation": "-1",
                     "money": "1",
                     "health": "0"
                 }
@@ -650,13 +642,13 @@
         ]
     },
     {
-        "description": "A mad citizen is trying to kill your collegue.",
+        "description": " A mad citizen is trying to kill your colleague.",
         "options": [
             {
                 "name": "Arrest them",
                 "consequences": {
                     "reputation": "3",
-                    "money": "0",
+                    "money": "1",
                     "health": "-3"
                 }
             },
@@ -671,15 +663,15 @@
             {
                 "name": "Shoot at citizen",
                 "consequences": {
-                    "reputation": "3",
+                    "reputation": "2",
                     "money": "0",
-                    "health": "-3"
+                    "health": "-2"
                 }
             }
         ]
     },
     {
-        "description": "You are caught in a crossfire between the army and \"proterstors\".",
+        "description": "You are caught in a crossfire between the army and protestors.",
         "options": [
             {
                 "name": "Flee",
@@ -701,14 +693,14 @@
                 "name": "Shoot at protestors",
                 "consequences": {
                     "reputation": "3",
-                    "money": "0",
+                    "money": "1",
                     "health": "-3"
                 }
             }
         ]
     },
     {
-        "description": "Military starts shooting at you because they think you are with protestors.",
+        "description": "The military starts shooting at you because they think you are with protestors.",
         "options": [
             {
                 "name": "Flee",
@@ -735,15 +727,15 @@
                 "name": "Ignore it",
                 "consequences": {
                     "reputation": "-2",
-                    "money": "0",
-                    "health": "0"
+                    "money": "-1",
+                    "health": "1"
                 }
             },
             {
                 "name": "Explore",
                 "consequences": {
                     "reputation": "3",
-                    "money": "0",
+                    "money": "1",
                     "health": "-3"
                 }
             }
@@ -755,7 +747,7 @@
             {
                 "name": "Arrest him",
                 "consequences": {
-                    "reputation": "1",
+                    "reputation": "0",
                     "money": "0",
                     "health": "0"
                 }
@@ -771,13 +763,13 @@
         ]
     },
     {
-        "description": "You check person's documents and turns out he is an illegal Moldavian immigrant.",
+        "description": "You check a person's documents, and it turns out he is an illegal Moldavian immigrant.",
         "options": [
             {
                 "name": "Arrest him",
                 "consequences": {
                     "reputation": "2",
-                    "money": "0",
+                    "money": "1",
                     "health": "-2"
                 }
             },
@@ -793,28 +785,20 @@
                 "name": "Ask for a bribe",
                 "consequences": {
                     "reputation": "-2",
-                    "money": "2",
+                    "money": "5",
                     "health": "0"
-                }
-            },
-            {
-                "name": "Ignore them",
-                "consequences": {
-                    "reputation": "-2",
-                    "money": "0",
-                    "health": "2"
                 }
             }
         ]
     },
     {
-        "description": "Someone plays anti-communitst radio with a high volume.",
+        "description": "Someone plays anti-communist radio with a high volume.",
         "options": [
             {
                 "name": "Arrest him",
                 "consequences": {
                     "reputation": "3",
-                    "money": "0",
+                    "money": "1",
                     "health": "-3"
                 }
             },
@@ -823,7 +807,7 @@
                 "consequences": {
                     "reputation": "-2",
                     "money": "0",
-                    "health": "0"
+                    "health": "1"
                 }
             }
         ]
@@ -840,10 +824,10 @@
                 }
             },
             {
-                "name": "Try to disperse the mob ",
+                "name": "Disperse the mob ",
                 "consequences": {
                     "reputation": "3",
-                    "money": "0",
+                    "money": "3",
                     "health": "-3"
                 }
             },
@@ -869,10 +853,10 @@
                 }
             },
             {
-                "name": "Try to find the source",
+                "name": "Disperse the mob ",
                 "consequences": {
                     "reputation": "2",
-                    "money": "0",
+                    "money": "2",
                     "health": "-2"
                 }
             }
@@ -890,10 +874,10 @@
                 }
             },
             {
-                "name": "Try to disperse the mob ",
+                "name": "Disperse the mob ",
                 "consequences": {
                     "reputation": "3",
-                    "money": "0",
+                    "money": "3",
                     "health": "-3"
                 }
             },
@@ -919,17 +903,17 @@
                 }
             },
             {
-                "name": "Try to disperse the mob ",
+                "name": "Disperse the mob ",
                 "consequences": {
                     "reputation": "4",
-                    "money": "0",
+                    "money": "2",
                     "health": "-4"
                 }
             },
             {
                 "name": "Shoot at them",
                 "consequences": {
-                    "reputation": "3",
+                    "reputation": "4",
                     "money": "0",
                     "health": "-4"
                 }
@@ -937,7 +921,7 @@
         ]
     },
     {
-        "description": "An armed mob is making their way through the streets, and is coming for you!",
+        "description": "An armed mob is making their way through the streets and is coming for you!",
         "options": [
             {
                 "name": "Flee",
@@ -948,17 +932,17 @@
                 }
             },
             {
-                "name": "Try to disperse the mob ",
+                "name": "Disperse the mob ",
                 "consequences": {
                     "reputation": "4",
-                    "money": "0",
+                    "money": "2",
                     "health": "-4"
                 }
             }
         ]
     },
     {
-        "description": "A rabble of looters have forced their way into a bread store. As you try to apprehend the leader, he pulls out a kitchen knife!",
+        "description": "A rabble of looters has forced their way into a bread store. As you try to apprehend the leader, he pulls out a kitchen knife!",
         "options": [
             {
                 "name": "Flee",
@@ -969,7 +953,7 @@
                 }
             },
             {
-                "name": "Try to disharm him",
+                "name": "Disharm him",
                 "consequences": {
                     "reputation": "2",
                     "money": "0",
@@ -979,10 +963,10 @@
         ]
     },
     {
-        "description": "Your car breaks down during your shift. Looks like someone has sabotaged it before you entered.",
+        "description": "Your car breaks down during your shift. It looks like someone had sabotaged it before you entered.",
         "options": [
             {
-                "name": "Try to repair it yourself",
+                "name": "Repair it yourself",
                 "consequences": {
                     "reputation": "0",
                     "money": "0",
@@ -1000,7 +984,7 @@
         ]
     },
     {
-        "description": "You go through your pockets, and notice your wallet is missing! Whoever nicked it can\u2019t be far though\u2026",
+        "description": "You go through your pockets and notice your wallet is missing! Whoever nicked it can't be far, though\u2026",
         "options": [
             {
                 "name": "Attempt to find the thief",
@@ -1021,7 +1005,7 @@
         ]
     },
     {
-        "description": "Gunfire erupts from a broken window in the nearby apartment complex, and shatters the windshield of your car! Whoever is in there is aiming to kill.",
+        "description": "Gunfire erupts from a broken window in the nearby apartment complex and shatters the windshield of your car! Whoever is in there is aiming to kill.",
         "options": [
             {
                 "name": "Flee",
@@ -1035,7 +1019,7 @@
                 "name": "Stop and shoot back",
                 "consequences": {
                     "reputation": "2",
-                    "money": "0",
+                    "money": "2",
                     "health": "-2"
                 }
             }
@@ -1056,14 +1040,14 @@
                 "name": "Arest him",
                 "consequences": {
                     "reputation": "1",
-                    "money": "0",
+                    "money": "1",
                     "health": "-1"
                 }
             }
         ]
     },
     {
-        "description": "You hear a shout behind you. \u201cNoi suntem poporul!\u201d Before you even know what\u2019s happening, a masked man charges you with a makeshift club.",
+        "description": "You hear a shout behind you. Noi suntem poporul! Before you even know what's happening, a masked man charges you with a makeshift club.",
         "options": [
             {
                 "name": "Flee",
@@ -1074,30 +1058,30 @@
                 }
             },
             {
-                "name": "Try to disharm him",
+                "name": "Disharm him",
                 "consequences": {
                     "reputation": "1",
-                    "money": "0",
+                    "money": "1",
                     "health": "-1"
                 }
             }
         ]
     },
     {
-        "description": "A young woman asks for you assistance. (As you listen to her explaining the situation, light fingers rifle through your pockets from behind you.)",
+        "description": "A young woman asks for your assistance. ",
         "options": [
             {
                 "name": "Help her",
                 "consequences": {
                     "reputation": "1",
-                    "money": "0",
+                    "money": "1",
                     "health": "0"
                 }
             },
             {
                 "name": "Ask for bribe",
                 "consequences": {
-                    "reputation": "0",
+                    "reputation": "-1",
                     "money": "1",
                     "health": "0"
                 }
@@ -1111,7 +1095,7 @@
                 "name": "Fire a warning shot",
                 "consequences": {
                     "reputation": "0",
-                    "money": "0",
+                    "money": "1",
                     "health": "-1"
                 }
             },
@@ -1137,7 +1121,7 @@
         "description": "While on the way back to your car, a group of kids brandishing sharp objects flee the scene. They have punctured one of your tires!",
         "options": [
             {
-                "name": "Try to replace the tire",
+                "name": "Replace the tire",
                 "consequences": {
                     "reputation": "-1",
                     "money": "0",
@@ -1163,7 +1147,7 @@
         ]
     },
     {
-        "description": "A crackdown goes awry. A military squadron opens fire on a group of protestors, who in turn shoot back with their own hidden weapons. Bullets barely miss your head as you\u2019re stuck in the crossfire!",
+        "description": "A crackdown goes awry. A military squadron opens fire on a group of protestors, which shoot back with their hidden weapons. Bullets barely miss your head as you're stuck in the crossfire!",
         "options": [
             {
                 "name": "Flee",
@@ -1184,7 +1168,7 @@
         ]
     },
     {
-        "description": "You make you way towards a protest spiraling out of hand. You barely manage to see the torn flags being waved as an armored personnel carrier charges straight for the crowd, but you\u2019re in the way.",
+        "description": "You make your way towards a protest spiraling out of hand. You barely manage to see the torn flags being waved as an armored personnel carrier charges straight for the crowd, but you're in the way.",
         "options": [
             {
                 "name": "Dodge the vehicle",
@@ -1198,14 +1182,14 @@
                 "name": "Charge for the crowd",
                 "consequences": {
                     "reputation": "2",
-                    "money": "0",
+                    "money": "1",
                     "health": "-2"
                 }
             }
         ]
     },
     {
-        "description": "During a crackdown an a local university, some of your fellow police officers join the protestors and attack you!",
+        "description": "During a local university crackdown, some of your fellow police officers join the protestors and attack you!",
         "options": [
             {
                 "name": "Flee the scene",
@@ -1221,6 +1205,526 @@
                     "reputation": "2",
                     "money": "0",
                     "health": "-2"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Following orders from the station, you and several other police officers set up a barricade to block the streets. The protesters, however, have been bolstered by workers from the industrial zones and now outnumber you five to one.",
+        "options": [
+            {
+                "name": "Run away",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Hold your ground",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "0",
+                    "health": "-2"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Thank you for arresting a thief. A store owner hands you over a piece of chicken. Hunger-stricken eyes of nearby pedestrians focus on you\u2026",
+        "options": [
+            {
+                "name": "Flee",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Try to talk sense into them",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "-2",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Reach for your pistol",
+                "consequences": {
+                    "reputation": "",
+                    "money": "",
+                    "health": ""
+                }
+            }
+        ]
+    },
+    {
+        "description": "You and several officers have been called to disperse a crowd. However, by the time you arrive, it has already turned into a whole-blown rally, and people are not very happy to see the police.",
+        "options": [
+            {
+                "name": "Don't intervene",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "1",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Break up the rally",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "1",
+                    "health": "-2"
+                }
+            },
+            {
+                "name": "Fire your service weapon",
+                "consequences": {
+                    "reputation": "",
+                    "money": "",
+                    "health": ""
+                }
+            }
+        ]
+    },
+    {
+        "description": "A group of protestors that have barricaded themselves in a nearby restaurant pelt you with stones and any sharp objects they have at hand when you come close.",
+        "options": [
+            {
+                "name": "Flee",
+                "consequences": {
+                    "reputation": "-3",
+                    "money": "4",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Shoot back at the protestors",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "0",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Rubbish equipment! Just as you prepare to fire a warning shot at a wild-eyed man approaching you, your pistol jams!",
+        "options": [
+            {
+                "name": "Flee the scene",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Disharm him barehanded",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "1",
+                    "health": "-1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "While fending off the Revolutionaries from a governmental building, you and your colleagues hold out long enough for the army to arrive. To your horror, they join the rally.",
+        "options": [
+            {
+                "name": "Abandon the scene",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Try to hold them back",
+                "consequences": {
+                    "reputation": "3",
+                    "money": "1",
+                    "health": "-6"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You arrest a young man that has been suspected of showing support to the revolutionaries. As you take him away, his family members block your path.",
+        "options": [
+            {
+                "name": "Let the man go",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "-2",
+                    "health": ""
+                }
+            },
+            {
+                "name": "Arrest the family members too",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-4"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A fellow officer approaches you and says he has evidence that you're preparing treason against the Communist party. A small bribe would keep him silent, or so he says\u2026",
+        "options": [
+            {
+                "name": "Give him his bribe",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "2",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Ignore his threats",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "-4",
+                    "health": "4"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You see a group of youngsters cutting the communist star out of the Romanian flag.",
+        "options": [
+            {
+                "name": "Ignore them",
+                "consequences": {
+                    "reputation": "-3",
+                    "money": "1",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Fire a warning shot",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-3"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Factory workers have entered the city and are clashing with the military.",
+        "options": [
+            {
+                "name": "Don't intervene",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "-1",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Help the military",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "-2",
+                    "health": "-1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "A sniper has taken up position on a nearby roof of an apartment building. ",
+        "options": [
+            {
+                "name": "Abandon the scene",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "4",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Call in for help",
+                "consequences": {
+                    "reputation": "4",
+                    "money": "0",
+                    "health": "-7"
+                }
+            }
+        ]
+    },
+    {
+        "description": " Following the commotion after Ceau\u0219escu's speech, you haven't been able to redeem your daily ration of bread. Hunger starts kicking in bad\u2026",
+        "options": [
+            {
+                "name": "Fight off the feeling",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "0",
+                    "health": "-2"
+                }
+            },
+            {
+                "name": "Take food from a pedestrian",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "0",
+                    "health": "1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You hear someone screaming for help from a nearby alley. You rush towards the origin of the noise, only to be met by a group of men wielding lead pipes with malicious intent.",
+        "options": [
+            {
+                "name": "Attempt to flee",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Reach for your weapon",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "-2",
+                    "health": "-2"
+                }
+            }
+        ]
+    },
+    {
+        "description": "The stress of police work is rapidly catching up with you. Luckily for you, the narcotics you confiscated from an addict last weak might take the edge off...",
+        "options": [
+            {
+                "name": "Use the drugs",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "0",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Fight the urge",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "0",
+                    "health": "-3"
+                }
+            }
+        ]
+    },
+    {
+        "description": "The violent protesting has kept the police force working overtime, desperately trying to restore order. But the adrenaline can only stave off your lack of sleep for so long\u2026",
+        "options": [
+            {
+                "name": "Stay awake",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "-2",
+                    "health": "3"
+                }
+            },
+            {
+                "name": "Take some time to rest",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "0",
+                    "health": "-1"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You arrest a man who was caught stealing bread last week. Just as you cuff him, his wife rushes you with a pair of scissors.",
+        "options": [
+            {
+                "name": "Disharm her",
+                "consequences": {
+                    "reputation": "-4",
+                    "money": "-4",
+                    "health": "8"
+                }
+            },
+            {
+                "name": "Let go of the man and escape",
+                "consequences": {
+                    "reputation": "0",
+                    "money": "1",
+                    "health": "-5"
+                }
+            }
+        ]
+    },
+    {
+        "description": "It looks like the civil unrest is spreading a lot farther than you thought. Your younger brothers have been seen joining a rally against the police!",
+        "options": [
+            {
+                "name": "Try to hide the information",
+                "consequences": {
+                    "reputation": "5",
+                    "money": "-4",
+                    "health": "0"
+                }
+            },
+            {
+                "name": "Take the blame",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "2",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Your alcohol dependence has grown steadily worse this year. During your shift, an overwhelming urge starts taking hold of you while you're driving.",
+        "options": [
+            {
+                "name": "Fight the urge",
+                "consequences": {
+                    "reputation": "-1",
+                    "money": "-3",
+                    "health": "-1"
+                }
+            },
+            {
+                "name": "Take a sip",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "0",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "It looks like you weren't well prepared for dealing with the last days of December. The ice-cold winds blow straight through your uniform.",
+        "options": [
+            {
+                "name": "Take time to find a coat",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "-4",
+                    "health": "6"
+                }
+            },
+            {
+                "name": "Ignore the cold",
+                "consequences": {
+                    "reputation": "6",
+                    "money": "-2",
+                    "health": "-4"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Sheltering behind your riot shield, you are horrified to spot a familiar shape amongst the rocks and pieces of debris being thrown at you: A Grenade!",
+        "options": [
+            {
+                "name": "Attempt to run",
+                "consequences": {
+                    "reputation": "1",
+                    "money": "1",
+                    "health": "-2"
+                }
+            },
+            {
+                "name": "Throw it back",
+                "consequences": {
+                    "reputation": "-4",
+                    "money": "0",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "As you drive towards the location of a new protest, you swear you hear a ticking sound coming from under your seat\u2026",
+        "options": [
+            {
+                "name": "Jump out of the car",
+                "consequences": {
+                    "reputation": "5",
+                    "money": "0",
+                    "health": "-4"
+                }
+            },
+            {
+                "name": "Stop the car and walk out",
+                "consequences": {
+                    "reputation": "-4",
+                    "money": "0",
+                    "health": "5"
+                }
+            }
+        ]
+    },
+    {
+        "description": "Following a scuffle with a substance abuser, you notice that you have lost your badge! If word gets out about this at the station, there'll be hell to pay.",
+        "options": [
+            {
+                "name": "Find your badge",
+                "consequences": {
+                    "reputation": "5",
+                    "money": "0",
+                    "health": "-3"
+                }
+            },
+            {
+                "name": "Hope no one finds out",
+                "consequences": {
+                    "reputation": "-4",
+                    "money": "-4",
+                    "health": "0"
+                }
+            }
+        ]
+    },
+    {
+        "description": "You come across two people arguing about the communist regime. As their argument grows ever more heated, an uneasy tension rises in the street.",
+        "options": [
+            {
+                "name": "Stop the argument",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "3",
+                    "health": "3"
+                }
+            },
+            {
+                "name": "Get out before it escalates",
+                "consequences": {
+                    "reputation": "2",
+                    "money": "1",
+                    "health": "-2"
+                }
+            }
+        ]
+    },
+    {
+        "description": "While driving towards the home of a suspected activist, you are startled by the sound of your tires bursting. It looks like someone has sprinkled nails and glass shards here, anticipating your arrival.",
+        "options": [
+            {
+                "name": "Repair it yourself",
+                "consequences": {
+                    "reputation": "-5",
+                    "money": "3",
+                    "health": "-2"
+                }
+            },
+            {
+                "name": "Abandon your vehicle",
+                "consequences": {
+                    "reputation": "-2",
+                    "money": "0",
+                    "health": "2"
                 }
             }
         ]
